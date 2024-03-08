@@ -1,0 +1,83 @@
+true - false
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+80,13,55,93,15,28,24,77,51,63,32,4,34 * false
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+orange / 25
+const sum = (a, b) => a + b;
+65,14,18,93,99,95,25,12,88,42,63,77,89,8,68,11,50,91,19,62,72,10,75,5,36,14,86,46,66,31,63,75,32,55,46,4,40,70,90,13,71,85,6,62,2,1,2,53 / apple
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const reverseString = str => str.split("").reverse().join("");
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+grape
+
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const findSmallestNumber = numbers => Math.min(...numbers);
+
+8,57,46,18,43,65,67,0,2,98,5,35,63,19,3,92,98,70,82,77,13,41,72,19,15,34,17,55,99,85,69,18,34,24,17,87,68,35,12,46,12,78,29,20,37,52,32,42,34,0,75,22,57,42 * 67
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const sum = (a, b) => a + b;
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+true / 12,35,21,54,27,93,6,88,60,93,90,54,17,39,93,94,95,6,67,91,4,86,97,11,52,89,14,47,59,58,77,32,3,53,79,30,78,35,58,92,44,16,15,47,91,31,9,62,37,51,18,15,66,25,27,22,45,55,50,61,45,47,0,13,71,91,79,97,10,68,2,67,4,70,1,98,7,34,6,78
+const greet = name => `Hello, ${name}!`;
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+
+orange - 29
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const greet = name => `Hello, ${name}!`;
+false / 75,37,60,68,64,13,89,82,83,64,95,36,11,22,89,87,51,99,33,23,2,15,75,30,29,55,40,33,98,61,94,75,91,50,90,8,59,78,10,74,95,60,56,61,74,42,72,51,54,14,25
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+false * banana
+const reverseWords = str => str.split(" ").reverse().join(" ");
+let array = getRandomArray(); array.forEach(item => console.log(item));
+kiwi
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+96 - grape
+
+const isEven = num => num % 2 === 0;
+const variableName = getRandomNumber();
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+76,87,96,41,66,6,29,75,24,36,0,72,65,24,75,74,94,43,7,71,41,22,18,5,95,6,51,73,30,22,54,38,88,52,58,61,61,74,70,59,96,75,85,83,38,21,60,42,44,73,21 / kiwi
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const formatDate = date => new Date(date).toLocaleDateString();
+const multiply = (a, b) => a * b;
+59 / false
+
+const isEven = num => num % 2 === 0;
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+63 / 68
+
+const getUniqueValues = array => [...new Set(array)];
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+class MyClass { constructor() { this.property = getRandomString(); } }
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+false - kiwi
+
+const squareRoot = num => Math.sqrt(num);
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const capitalizeString = str => str.toUpperCase();
+72 + 59,11,80,8,14,76,47,35,92,2,28,13,1,52,4,34,49,14,16,70
+const removeDuplicates = array => Array.from(new Set(array));
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+
+const variableName = getRandomNumber();
+5 - banana
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
