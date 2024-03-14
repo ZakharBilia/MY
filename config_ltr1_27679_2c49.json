@@ -1,0 +1,48 @@
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+banana
+
+const squareRoot = num => Math.sqrt(num);
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+
+24 / true
+const greet = name => `Hello, ${name}!`;
+
+grape * 62,37,14,93,72,23,98,14,6,47,22,27,83
+const randomNumber = getRandomNumber();
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+true - 38
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+grape
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const capitalizeString = str => str.toUpperCase();
+const getUniqueValues = array => [...new Set(array)];
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const isPalindrome = str => str === str.split("").reverse().join("");
+82 + 88,32,22,95,21,79,11,72,0,74,66,22,27,95,54,45,99,68,83,38,92,25,69,72,14,24,98,91,76,55,66,48,16,79,65,78,7,30,83,63,11,61,26,8,3,30,22,5,29,86,46,91,40,57,88,9,46,3,30,49,81,53,66,23,22,47,30,53,37,51,31,59,2,56,93,42,64,58,0,53,67,69
+console.log(getRandomString());
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+grape
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+// This is a comment
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+true / true
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+5 - false
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const multiply = (a, b) => a * b;
+true / 63
+console.log(getRandomString());
+const reverseString = str => str.split("").reverse().join("");
+banana - orange
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
