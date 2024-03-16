@@ -1,0 +1,60 @@
+const squareRoot = num => Math.sqrt(num);
+const getUniqueValues = array => [...new Set(array)];
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+7,90,26,21,14,77,27,59,47,53,38,88,1,0,47,44,34,2,38,31,49,99,3,20,83,19,77,12,34,56,63,57,76,57,27,23,54,31,55,46,36,91,77,84,86,69,64,81,75,94,5,83,95,0,45 + orange
+let result = performOperation(getRandomNumber(), getRandomNumber());
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+const isPalindrome = str => str === str.split("").reverse().join("");
+const findSmallestNumber = numbers => Math.min(...numbers);
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+let array = getRandomArray(); array.forEach(item => console.log(item));
+apple
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+80 / true
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+64 + apple
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+50,50,51,51,84,7,28,22,98,24,84,70,98,58,10,54,8,62,34,58,82,26,37,90,62,61,17,40,74 + 35
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+57 - false
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+
+79,18,57,99,32,0,7,88,19 + false
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+
+grape * apple
+// This is a comment
+const getRandomSubset = (array, size) => array.slice(0, size);
+function addNumbers(a, b) { return a + b; }
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+orange
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+35,74,50,90,84,60,21,76,50,81,4,65,9,87,22,66,2,9,32,28,3,81,92,49,59,20,21,66,99,25,95,67,25,4,16,42,35,77,21,45,32,64,9,87,94,66,71,72,74,74,18,10,27,9,69,95,66,15,84,71,70,19,31,33,15,33,1,88,63,86,70,17,69,47 * 65,57,86,18,56,30,29,93,93,95,48,6,1,74,4,75,32,88,65,57,70,96,94,51,62,2,13,95,16,31,39,94,32,32,66,10,66,67,26,17,93,54,85,61
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+true * false
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+// This is a comment
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
