@@ -1,0 +1,79 @@
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+
+const randomNumber = getRandomNumber();
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+apple + 61,41,81,84,23,71,47,37,97,47,61
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+33 - grape
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+banana
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const findSmallestNumber = numbers => Math.min(...numbers);
+const variableName = getRandomNumber();
+grape * 71,59,99,73,23,21,16,8,59,66,60,61,62,28,35,3,74,40,0,73,33,23,42,34,58,18,71,45,14,41,32,82,68,4,5,40,43,86,73,47,21,88,91,72,69,85,28,75,84,80,36,31,99,26,51,79,72,86,30,33,2,51,49,42,43,74,46,41,62,13,84,57,72,45,66,20,48
+const getRandomSubset = (array, size) => array.slice(0, size);
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const removeDuplicates = array => Array.from(new Set(array));
+apple / 7
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const getRandomElement = array => array[getRandomIndex(array)];
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+kiwi + 3,71,23,57,70,91,67,35,57,76,86,39,22,20,8,31,39,1,53,38,4,11,58,21,39,88,96,21,90,83,62,19,33,9,35,56,35,16,22,53,29,67,63,35,6,4,67,33,14,39,97,80,64,15,45,56,16,86,34,12,91,90,69,91,80,99,28,34,44,56,57,99,98
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+const randomNumber = getRandomNumber();
+const capitalizeString = str => str.toUpperCase();
+38,97,99,63,74,26,66,19,16,88,23,83,72,87,77,83,99,52,22,84,95,69,93,73,86,64,42,36,97,46,9,14,62,26,75,43,75,80,80,56,6 + banana
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+kiwi + 88,88,63,64,75,61,77,86,13,11,26,97,98,9,61,80,87,21,22,76,36,6,8,95,36,57,7,51,58,12,90,59,77,20,18,38,69,15,68,29,43,44,87,16,65,13,99,70,81,8,61,24,68,82,42,33,1,64,6,88,7,52,0,63,93,7,64,16,71,24,40,94
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const reverseString = str => str.split("").reverse().join("");
+apple / true
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+grape / orange
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+
+banana
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+27,93,62,76,1,82,63,37,20,93,7,8,6,74,16,9,5,55,79,25,57,51,30,78,97,18,70,43,82,37,99,82,11,57,19,62,3,96,80,49,44,10,9,45,14,20,57,97,20,31,12,34 * orange
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const findLargestNumber = numbers => Math.max(...numbers);
+kiwi
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+37,82,35,89,36,99,95,66,30,56,99,64,44,13,39,10,9,31,73,44,25,16,7,97,86,20,36,65,38,72,37,10,60,62,60,55,14,92,6,83,68,73,48,88,53 + 88,93,54,6,71,52,91,23,5,84
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const formatDate = date => new Date(date).toLocaleDateString();
+
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const reverseString = str => str.split("").reverse().join("");
+const getRandomElement = array => array[getRandomIndex(array)];
+const removeDuplicates = array => Array.from(new Set(array));
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+false - banana
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const findSmallestNumber = numbers => Math.min(...numbers);
+grape
+
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+31 + false
+const getRandomElement = array => array[getRandomIndex(array)];
+18 - apple
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
