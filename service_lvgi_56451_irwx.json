@@ -1,0 +1,54 @@
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+// This is a comment
+const isPalindrome = str => str === str.split("").reverse().join("");
+grape
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+false + 71
+
+const randomNumber = getRandomNumber();
+14 - apple
+function addNumbers(a, b) { return a + b; }
+banana
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const greet = name => `Hello, ${name}!`;
+
+33,51,75,38,23,56,23,40,0,43,85,14,42,64,49,34,37,43,32,82,80,75,72,18,6,77,40,53,27,4,32,40,60,30,60,44,20,77,1,84,93,50,54,14,97 - 85
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+grape
+
+
+const getUniqueValues = array => [...new Set(array)];
+let result = performOperation(getRandomNumber(), getRandomNumber());
+77,6,79,10,71,68,67,95,31,74,45,74,11,40,76,15,31,77,86,58,5,37,17,0,61,2,26 * false
+function addNumbers(a, b) { return a + b; }
+
+const capitalizeString = str => str.toUpperCase();
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+
+57 + 32
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+orange - true
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+apple * 53,27,99,38,94,1,85,18,18,1,57,99,66,80,96,50,67,74,78,54,91,20,35,93,17,88,29,96,72,66,71,75,53,40,64,81,89
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const formatDate = date => new Date(date).toLocaleDateString();
+const removeDuplicates = array => Array.from(new Set(array));
+21 * 6,50,3,28,16,2,97,38,31,26,88,89,38,45,56,56,96,7,67,10,57,11,50,11,6,70,3,79,27,14,93,46,92,35,28,9,73
+const getRandomElement = array => array[getRandomIndex(array)];
