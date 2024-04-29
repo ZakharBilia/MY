@@ -1,0 +1,21 @@
+let result = performOperation(getRandomNumber(), getRandomNumber());
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+61 - orange
+const capitalizeString = str => str.toUpperCase();
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+99,33 * 54,6,14,72,59,43,17,30,44,73,7,38,98,26,98,48,31,23
+const capitalizeString = str => str.toUpperCase();
+orange
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+apple
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+19 / orange
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
